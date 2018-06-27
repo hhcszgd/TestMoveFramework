@@ -1,0 +1,11 @@
+framework module DDFramework {
+  umbrella header "DDFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module DDFramework.Swift {
+    header "DDFramework-Swift.h"
+    requires objc
+}
